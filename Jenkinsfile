@@ -1,7 +1,7 @@
 pipeline
 {
 agent any
-		Stages {
+		stages {
 	            stage ('SCM'){
 			steps {
 			echo "git pull my code step1"			
