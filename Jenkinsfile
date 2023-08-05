@@ -14,9 +14,9 @@ pipeline {
             }
         }
 
-        stage ('Test') {
+        stage ('Deploy') {
             steps {
-                echo "test the code"
+               sh 'java -jar target/*.jar'
             }
         }
     
