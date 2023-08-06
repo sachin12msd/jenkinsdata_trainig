@@ -10,13 +10,13 @@ pipeline {
 
         stage('Build') {
             steps {
-                sh 'mvn clean package'
+                sh 'sudo mvn clean package'
             }
         }
 
         stage('Deploye') {
             steps {
-                sh 'java -jar target/*.jar'
+                sh 'sudo java -jar target/*.jar'
             }
         }
     
