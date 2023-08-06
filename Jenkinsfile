@@ -4,7 +4,7 @@ pipeline {
         stage('SCM') {
             steps {
                 echo "git pull my code step1"			
-                git 'https://github.com/sachin12msd/simple-java-maven-app.git'
+                git 'https://github.com/sachin12msd/simple-java-maven.git'
             }
         }
 
