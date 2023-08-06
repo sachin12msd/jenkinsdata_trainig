@@ -22,7 +22,7 @@ pipeline {
     
         stage('Prod') {
             steps {
-                echo "deploy in prod"
+                echo "deploy in production"
             }
         }
     }
